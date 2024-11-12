@@ -123,6 +123,3 @@ class DataProcessor:
         encoded_comments_train, encoded_comments_tst = self.tokenize_data()
         self.create_dataloader(encoded_comments_train, encoded_comments_tst)
 
-# Usage
-'''data_processor = DataProcessor('snappfood-data/train.csv', 'snappfood-data/test.csv')
-data_processor.process()'''
