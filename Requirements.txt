@@ -2,5 +2,5 @@
 pandas
 openpyxl
 xlrd
-scikit-learn
 torch
+transformers
